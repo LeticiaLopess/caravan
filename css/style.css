@@ -28,3 +28,11 @@ Dessa forma, independente do dispositivo que o usuário estiver utilizando, o si
         position: relative;
     }
 }
+
+.lista-plano li + li { /*seleciona todo li que vier após o primeiro li que estiver dentro de lista-plano, o primeiro li não terá esse estilo*/
+    border-top: 1px solid rgba(0,0,0,.2)
+}
+
+.lista-plano li {
+    padding: 1rem;
+}
